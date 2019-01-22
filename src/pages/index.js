@@ -8,10 +8,8 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <p>Hi there.</p>
     <p>
-      I am a self-taught software engineer. I am currently focusing on
-      JavaScript, React, and Node.js.{' '}
+      I am a self-taught software engineer. Currently, I am focusing on JavaScript, React, and Node.js.
     </p>
     <p>Here are some things I made.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
