@@ -7,7 +7,7 @@
 // You can delete this file if you're not using it
 
 // Display a message when the service worker updates
-exports.onServiceWorkerUpdateReady = () => {
+const onServiceWorkerUpdateReady = () => {
   const answer = window.confirm(
     `This application has been updated. ` +
       `Reload to display the latest version?`
@@ -17,3 +17,5 @@ exports.onServiceWorkerUpdateReady = () => {
     window.location.reload()
   }
 }
+
+export default onServiceWorkerUpdateReady
