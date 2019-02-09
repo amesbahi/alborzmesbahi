@@ -18,7 +18,7 @@ const styles = {
   height: '41px'
 }
 
-const Image = () => (
+const SocialIconBird = () => (
   <StaticQuery
     query={graphql`
       query {
@@ -34,4 +34,4 @@ const Image = () => (
     render={data => <Img alt="Social icon bird" style={styles} fluid={data.placeholderImage.childImageSharp.fluid} />}
   />
 )
-export default Image
+export default SocialIconBird
