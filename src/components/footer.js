@@ -1,10 +1,10 @@
 import React from 'react'
-import Image from './image'
+import SocialIconBird from './socialiconbird'
 
 const Footer = () => (
   <footer style={{ display: 'flex', justifyContent: 'center' }}>
     <a href="https://twitter.com/alborzmesbahi">
-      <Image />
+      <SocialIconBird />
     </a>
   </footer>
 )
