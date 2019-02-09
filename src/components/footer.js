@@ -1,5 +1,5 @@
 import React from 'react'
-import SocialIconBird from './socialiconbird'
+import SocialIconBird from './SocialIconBird'
 
 const Footer = () => (
   <footer style={{ display: 'flex', justifyContent: 'center' }}>
