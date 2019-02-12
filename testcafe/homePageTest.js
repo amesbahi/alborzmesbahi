@@ -1,0 +1,53 @@
+import { Selector } from 'testcafe'
+const url = 'http://localhost:8000/'
+
+const header = Selector('*[data-qa="main-header"]')
+const portfolioItem1 = Selector('*[data-qa="portfolio-item1"]')
+const portfolioItem2 = Selector('*[data-qa="portfolio-item2"]')
+const portfolioItem3 = Selector('*[data-qa="portfolio-item3"]')
+const portfolioItem4 = Selector('*[data-qa="portfolio-item4"]')
+const portfolioItem5 = Selector('*[data-qa="portfolio-item5"]')
+const portfolioItem6 = Selector('*[data-qa="portfolio-item6"]')
+const portfolioItem7 = Selector('*[data-qa="portfolio-item7"]')
+const portfolioItem8 = Selector('*[data-qa="portfolio-item8"]')
+const portfolioItem9 = Selector('*[data-qa="portfolio-item9"]')
+const portfolioItem10 = Selector('*[data-qa="portfolio-item10"]')
+const portfolioItem11 = Selector('*[data-qa="portfolio-item11"]')
+const portfolioItem12 = Selector('*[data-qa="portfolio-item12"]')
+
+const socialIconBird = Selector('*[alt="Social icon bird"]')
+
+fixture`Home page`.page`${url}`
+
+test('Home page test', async t => {
+  await t
+    .expect(header.innerText)
+    .eql('Alborz', 'Value matches expected')
+    .click(header)
+    .click(portfolioItem1)
+    .navigateTo(url)
+    .click(portfolioItem2)
+    .navigateTo(url)
+    .click(portfolioItem3)
+    .navigateTo(url)
+    .click(portfolioItem4)
+    .navigateTo(url)
+    .click(portfolioItem5)
+    .navigateTo(url)
+    .click(portfolioItem6)
+    .navigateTo(url)
+    .click(portfolioItem7)
+    .navigateTo(url)
+    .click(portfolioItem8)
+    .navigateTo(url)
+    .click(portfolioItem9)
+    .navigateTo(url)
+    .click(portfolioItem10)
+    .navigateTo(url)
+    .click(portfolioItem11)
+    .navigateTo(url)
+    .click(portfolioItem12)
+    .navigateTo(url)
+    .click(socialIconBird)
+    .navigateTo(url)
+})

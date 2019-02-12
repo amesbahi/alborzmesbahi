@@ -20,6 +20,7 @@ const Header = ({ siteTitle }) => (
     >
       <h1 style={{ margin: 0 }}>
         <Link
+          data-qa="main-header"
           to="/"
           style={{
             color: `black`,
