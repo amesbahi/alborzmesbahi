@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <p>
-      I am a self-taught software engineer. Currently, I am focusing on JavaScript, React, and Node.js.
+      I am a software engineer. Currently, I am focusing on JavaScript, React, and Node.js.
     </p>
     <p>Here are some things I made.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
